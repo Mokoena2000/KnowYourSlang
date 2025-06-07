@@ -1,3 +1,6 @@
+from CAPE.CapeSlang import Cape
+
+
 print("Welcome to Know Your Slang!")
 print("A game where you will be given a sentence and tell us what its slang word is")
 print("Show us how well do you know south african slang put yourself to the test and show of your knowledge to friends and family")
@@ -15,7 +18,8 @@ def Start():
 
 
     if play.lower() == "yes":
-        return (f"Awesome {name} lets start the fun choose where you would like to visit")
+        print (f"Awesome {name} lets start the fun choose where you would like to visit")
+        return Cape
         
     elif play.lower() == "no":
         return (f"Ooops its all good {name} lets play next time")
@@ -33,4 +37,4 @@ if __name__ == "__main__":
 
 
 
-    
+     
