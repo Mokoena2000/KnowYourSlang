@@ -18,9 +18,10 @@ def Start():
 
 
     if play.lower() == "yes":
-        print (f"Awesome {name} lets start the fun choose where you would like to visit")
-        return Cape
-        
+       choice = print (input(f"Awesome {name} lets start the fun choose where you would like to visit 'CapeTown', 'Johannesburg','Pretoria' ?: " ))
+       if choice.lower() == "cape":
+           return Cape
+       
     elif play.lower() == "no":
         return (f"Ooops its all good {name} lets play next time")
 
