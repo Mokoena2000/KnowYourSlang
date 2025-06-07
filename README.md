@@ -11,6 +11,6 @@ By Mo Codes
 
 # Oblective
 
-Making day to day communicasion in SA easier with most common used word to make communication easier
+Making day to day communicasion in SA easier with most common used word to make communication lekker
 
 Have fun and remember HULLE WIETIE WAT ONS WIETIE
