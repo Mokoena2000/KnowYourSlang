@@ -1,4 +1,4 @@
-from CAPE.CapeSlang import Cape
+from CapeSlang import Cape
 
 
 print("Welcome to Know Your Slang!")
