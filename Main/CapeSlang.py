@@ -44,7 +44,16 @@ def Cape():
 
     print(SecondQuestion())
 
-   
+    def ThirdQuestion():
+        guesses = 7
+        points = 0
+
+        Question3 = input("Greasy or junk food commonly eaten on a night out")
+        
+
+
+        
+         
 if __name__ == "__main__":
     Cape()
     
