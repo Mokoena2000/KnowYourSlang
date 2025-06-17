@@ -1,7 +1,9 @@
-guesses = 7
-points = 0
+
 
 def Cape():
+
+    guesses = 7
+    points = 0
 
     print("Cape Slang pretty sure everyone in cape town should ace this give it a try and see how much you know")
 
@@ -16,7 +18,7 @@ def Cape():
         Answer = "AWE"
 
         if Question1.lower() == Answer.lower():
-            points +5
+            
             return (f"Yes the answer is {Answer} Heyy look at you... I knew you would get the answer Lets go.....\nyou still have {guesses} lives left and have scored {points} points")
         
         
@@ -37,7 +39,7 @@ def Cape():
             return (f"Look at you doing your thing 2 in a row your answer {Answer} is correct \nyou just scored another {points} points and have {guesses} lives left")
         
         else:
-            guesses 
+            guesses -1
             return (f"Eishhhh not quiet right your answer {Question2} is not what we looking for...you can try again \nyour lives are {guesses} we have deducted 1")
             
         
@@ -56,7 +58,7 @@ def Cape():
 
         else:
             guesses -1
-            return (f"I guess someone wont be getting some extra points \n{points} points left and {guesses}  have deducted 1")           
+            return (f"I guess someone wont be getting some extra points \n{points} points left and {guesses} lives  have deducted 1")           
         
     print(ThirdQuestion())
 
