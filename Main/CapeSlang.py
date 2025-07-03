@@ -1,5 +1,3 @@
-
-
 def Cape():
 
     guesses = 7
